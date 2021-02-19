@@ -682,7 +682,7 @@ letters = "".join(map(chr, range(ord('a'), ord('z') + 1)))
 ```
 
 ### 23.可变类型和不可变类型
-1,可变类型有list,dict.不可变类型有string，number,tuple.
+1,可变类型有list,dict，set.不可变类型有string，number,tuple.
 
 2,当进行修改操作时，可变类型传递的是内存中的地址，也就是说，直接修改内存中的值，并没有开辟新的内存。
 
